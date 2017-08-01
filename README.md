@@ -1,5 +1,5 @@
 # nextql-validate
-Validate plugin for nextql methods, using fastest validator [fastest-validator](https://github.com/icebob/fastest-validator)
+Validate plugin for nextql methods, using fastest-validator [fastest-validator](https://github.com/icebob/fastest-validator). Please refer the project for detail schema and api.
 
 ## Using
 

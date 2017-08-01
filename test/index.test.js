@@ -96,3 +96,20 @@ it("no validate no wrap function", async () => {
 			});
 		});
 });
+
+it("manual validate no wrap function", async () => {
+	await nextql
+		.execute({
+			test: {
+				function3: {
+					$params: { id: 5, name: "Al", status: true },
+					id: 1,
+					name: 1,
+					status: 1
+				}
+			}
+		})
+		.catch(error => {
+			expect(error.message).toBe("Validate error");
+		});
+});

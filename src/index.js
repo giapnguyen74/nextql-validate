@@ -11,7 +11,7 @@ function doValidate(check, origMethod) {
 			const error = new Error("Validation error!");
 			error.code = 400;
 			error.errors = errors;
-			return Promise.reject(error);
+			throw error;
 		}
 	};
 }

@@ -1,5 +1,9 @@
 # nextql-validate
-Validate plugin for nextql methods, using fastest-validator [fastest-validator](https://github.com/icebob/fastest-validator). Please refer the project for detail schema and api.
+Validate plugin for nextql methods, using [fastest-validator](https://github.com/icebob/fastest-validator). Please refer the project for detail schema and api.
+## Install
+```sh
+npm install --save nextql-validate
+```
 
 ## Using
 
@@ -41,7 +45,7 @@ So when nextql call function1; it will automatically verify validates function1.
 In above example, method **function2** don't have validates setting. So it don't check params automatically. But it can get validates from **this.$options.$validates** to perform manual check.
 
 
-##License
+## License
 nextql-validate is available under the MIT license.
 
 
